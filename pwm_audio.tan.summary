@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.370 ns
+From           : pwm_triwave:inst|os:inst|count[1]
+To             : GPIO_1[0]
+From Clock     : CLOCK_50
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.438 ns
+From           : SW[0]
+To             : GPIO_1[0]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLOCK_50'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 308.74 MHz ( period = 3.239 ns )
+From           : pwm_triwave:inst|lpm_counter0:inst1|lpm_counter:lpm_counter_component|cntr_3cg:auto_generated|safe_q[1]
+To             : pwm_triwave:inst|os:inst|count[1]
+From Clock     : CLOCK_50
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLOCK_50'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_okh:auto_generated|safe_q[3]
+To             : pwm_triwave:inst|os:inst|count[3]
+From Clock     : CLOCK_50
+To Clock       : CLOCK_50
+Failed Paths   : 2
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 2
+
+--------------------------------------------------------------------------------------
+

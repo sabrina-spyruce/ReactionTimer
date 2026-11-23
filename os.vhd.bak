@@ -1,0 +1,38 @@
+-- retriggerable edge-triggered one-shot 
+-- pulse width = delay * clock period 
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.all;
+USE  IEEE.STD_LOGIC_ARITH.all;
+USE  IEEE.STD_LOGIC_UNSIGNED.all;
+
+ENTITY os IS
+PORT (	clock, trigger, reset	: IN BIT;
+		delay		: IN INTEGER RANGE 0 TO 31;	
+		q		: OUT BIT);
+END os;
+
+ARCHITECTURE a OF os IS
+BEGIN
+	PROCESS (clock, reset)
+	VARIABLE count		: INTEGER RANGE 0 TO 31;
+	VARIABLE trig_was	: BIT;
+	BEGIN
+		IF reset = '0' THEN count := 0; 		
+		ELSIF (clock'EVENT AND clock = '1' ) THEN 
+			IF trigger = '1' AND trig_was = '0' THEN 
+				count := delay;					-- load counter
+				trig_was := '1';				-- "remember" edge detected
+			ELSIF count = 0 THEN count := 0; 	-- hold @ 0
+			ELSE count := count - 1;			-- decrement
+			END IF;
+			IF trigger = '0' THEN trig_was := '0';
+			END IF;
+		END IF;
+		IF count /= 0	THEN q <= '1'; 	
+		ELSE q <= '0';
+		END IF;
+	END PROCESS;
+END a;
+
+

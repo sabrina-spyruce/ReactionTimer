@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.504
+TNS   : -2.504
+
+Type  : Slow 1100mV 85C Model Setup 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : -2.498
+TNS   : -16.580
+
+Type  : Slow 1100mV 85C Model Setup 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : -1.994
+TNS   : -19.313
+
+Type  : Slow 1100mV 85C Model Setup 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : -1.215
+TNS   : -10.928
+
+Type  : Slow 1100mV 85C Model Hold 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : 0.675
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : 0.727
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.824
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.774
+TNS   : -1.311
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : -0.394
+TNS   : -5.849
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : -0.394
+TNS   : -5.298
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : -0.394
+TNS   : -4.656
+
+Type  : Slow 1100mV 0C Model Setup 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : -2.512
+TNS   : -16.671
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.405
+TNS   : -2.405
+
+Type  : Slow 1100mV 0C Model Setup 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : -2.068
+TNS   : -19.859
+
+Type  : Slow 1100mV 0C Model Setup 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : -1.215
+TNS   : -11.115
+
+Type  : Slow 1100mV 0C Model Hold 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : 0.672
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : 0.683
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.804
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.772
+TNS   : -1.334
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : -0.394
+TNS   : -5.788
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : -0.394
+TNS   : -5.188
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : -0.394
+TNS   : -4.656
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -1.871
+TNS   : -1.871
+
+Type  : Fast 1100mV 85C Model Setup 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : -1.567
+TNS   : -8.284
+
+Type  : Fast 1100mV 85C Model Setup 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : -0.772
+TNS   : -7.476
+
+Type  : Fast 1100mV 85C Model Setup 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : -0.493
+TNS   : -3.500
+
+Type  : Fast 1100mV 85C Model Hold 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.780
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.811
+TNS   : -1.437
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : 0.086
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.578
+TNS   : -1.578
+
+Type  : Fast 1100mV 0C Model Setup 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : -1.412
+TNS   : -7.612
+
+Type  : Fast 1100mV 0C Model Setup 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : -0.703
+TNS   : -6.746
+
+Type  : Fast 1100mV 0C Model Setup 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : -0.411
+TNS   : -2.965
+
+Type  : Fast 1100mV 0C Model Hold 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : -0.014
+TNS   : -0.014
+
+Type  : Fast 1100mV 0C Model Hold 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.809
+TNS   : -1.492
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pwm_triwave:inst|clock_divider:inst14|output'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_phh:auto_generated|counter_reg_bit[0]'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pwm_triwave:inst|lpm_counter1:inst6|lpm_counter:lpm_counter_component|cntr_shh:auto_generated|counter_reg_bit[3]'
+Slack : 0.128
+TNS   : 0.000
+
+------------------------------------------------------------
